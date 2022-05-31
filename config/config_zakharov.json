@@ -1,0 +1,12 @@
+{
+  "f": "x ** 2 + y ** 2 + (0.5 * x + y)^2 + (0.5 * x + y)^4",
+  "x_0": [1, 1],
+  "n_runs": 100,
+  "max_calls": 100,
+  "T_max": 100,
+  "strategy": {
+    "name": "geom",
+    "alpha": 0.95
+  },
+  "max_step": 1
+}

@@ -1,0 +1,12 @@
+{
+  "f": "(1 - x)^2+2*(y-x^2)^2",
+  "x_0": [0, 0],
+  "n_runs": 100,
+  "max_calls": 100,
+  "T_max": 100,
+  "strategy": {
+    "name": "geom",
+    "alpha": 0.95
+  },
+  "max_step": 1
+}
